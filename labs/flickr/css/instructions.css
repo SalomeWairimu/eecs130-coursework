@@ -1,0 +1,42 @@
+#instructions-button {
+    background: hotpink;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.instructions {
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    font-size: 1.2em;
+    line-height: 1.4em;
+    color: #444;
+}
+.instructions.active   {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: rgba(255, 255, 255, 1);
+    z-index: 200;
+    display: flex;
+}
+.instructions > * {
+    max-width: 50vw;
+}
+.instructions h2 {
+    margin-top: 60px;
+}
+.instructions li {
+    margin-bottom: 20px;
+}
+
+.instructions .close {
+    color: black;
+}
+.instructions .close:hover {
+    background: rgba(0, 0, 0, 0.4);
+}
