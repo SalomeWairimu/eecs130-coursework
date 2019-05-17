@@ -1,0 +1,14 @@
+#output
+{
+    border: None !important;
+    background: #fff !important;
+}
+
+.tweet
+{
+    border: solid 1px #ccc;
+    padding: 25px;
+    margin: 10px;
+    background: #F8F8F8;
+    border-radius: 10px;
+}

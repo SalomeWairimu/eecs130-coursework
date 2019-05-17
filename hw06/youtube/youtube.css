@@ -1,0 +1,19 @@
+#output
+{
+    border: None !important;
+    background: #fff !important;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.video
+{
+    border: solid 1px #ccc !important;
+    padding: 25px;
+    margin: 10px;
+    background: #F8F8F8;
+    border-radius: 10px;
+    width: 30%;
+}
